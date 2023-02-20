@@ -3,7 +3,7 @@
   "displayName": "HTL vscode settings",
   "publisher": "HossainiHosain",
   "description": "This is a simple VSCode extension that sets some default settings for the editor and prettier.",
-  "icon": "/images/icon.png",
+  "icon": "images/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/hossaini310/htl-vscode-settings"
