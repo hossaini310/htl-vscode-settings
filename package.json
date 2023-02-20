@@ -6,7 +6,7 @@
   "icon": "/images/icon.png",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/hossaini310/htl-vscode-settings"
   },
   "version": "1.0.0",
   "engines": {
