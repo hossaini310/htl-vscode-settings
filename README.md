@@ -29,10 +29,10 @@ The extension sets the following settings:
 - `editor.renderWhitespace`: Disables rendering of whitespace characters.
 - `editor.suggestSelection`: Sets the suggestion selection to first.
 - `editor.guides.indentation`: Disables indentation guides.
+- `editor.defaultFormatter`: Sets the default formatter to esbenp.prettier-vscode.
 
 #### prettier settings:
 
-- `defaultFormatter`: Sets the default formatter to esbenp.prettier-vscode.
 - `prettier.singleQuote`: Sets single quotes as the default quote style for Prettier.
 - `prettier.bracketSpacing`: Enables bracket spacing for Prettier.
 - `prettier.trailingComma`: Enables trailing commas for Prettier.

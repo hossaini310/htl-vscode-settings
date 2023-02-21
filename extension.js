@@ -24,7 +24,7 @@ function activate() {
   config.update('prettier.jsxSingleQuote', true, true);
   config.update('prettier.useEditorConfig', false, true);
 
-  config.update('defaultFormatter', 'esbenp.prettier-vscode', true);
+  config.update('editor.defaultFormatter', 'esbenp.prettier-vscode', true);
   config.update('files.autoSave', 'afterDelay', true);
 
   config.update('editor.formatOnSave', true, true);
