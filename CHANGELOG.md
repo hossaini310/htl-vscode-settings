@@ -1,6 +1,10 @@
 # Change Log
 
-### v1.1.0 - 2023-02-22
+### v1.1.1 - 2023-02-21
+
+- Bug fixes
+
+### v1.1.0 - 2023-02-21
 
 - `editor.codeActionsOnSave`: Automatically organizes imports on save.
 - `editor.linkedEditing`: Auto renaming HTML tags. Now you dont need the extension **Auto Rename Tag**
