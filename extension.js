@@ -15,18 +15,9 @@ function activate() {
   originalSettings.editor = config.get('editor');
   originalSettings.prettier = config.get('prettier');
 
-  config.update('prettier.singleQuote', true, true);
-  config.update('prettier.bracketSpacing', true, true);
-  config.update('prettier.trailingComma', 'all', true);
-  config.update('prettier.printWidth', 100, true);
-  config.update('prettier.endOfLine', 'auto', true);
-  config.update('prettier.arrowParens', 'always', true);
-  config.update('prettier.jsxSingleQuote', true, true);
-  config.update('prettier.useEditorConfig', false, true);
-
+  config.update('editor.codeActionsOnSave', { sourceOrganizeImports: true }, true);
   config.update('editor.defaultFormatter', 'esbenp.prettier-vscode', true);
-  config.update('files.autoSave', 'afterDelay', true);
-
+  config.update('editor.linkedEditing', true, true);
   config.update('editor.formatOnSave', true, true);
   config.update('editor.formatOnPaste', true, true);
   config.update('editor.wordWrap', 'off', true);
@@ -44,6 +35,27 @@ function activate() {
   config.update('editor.renderWhitespace', 'none', true);
   config.update('editor.suggestSelection', 'first', true);
   config.update('editor.guides.indentation', false, true);
+
+  config.update('files.autoSave', 'afterDelay', true);
+  config.update('emmet.showSuggestionsAsSnippets', true, true);
+  config.update('emmet.includeLanguages', { plaintext: 'html' }, true);
+  config.update('volar.inlayHints.eventArgumentInInlineHandlers', false, true);
+  config.update('html.autoClosingTags', true, true);
+  config.update('javascript.autoClosingTags', true, true);
+  config.update('typescript.autoClosingTags', true, true);
+  config.update('javascript.suggest.autoImports', true, true);
+  config.update('typescript.suggest.autoImports', true, true);
+  config.update('javascript.updateImportsOnFileMove.enabled', 'always', true);
+  config.update('typescript.updateImportsOnFileMove.enabled', 'always', true);
+
+  config.update('prettier.singleQuote', true, true);
+  config.update('prettier.bracketSpacing', true, true);
+  config.update('prettier.trailingComma', 'all', true);
+  config.update('prettier.printWidth', 100, true);
+  config.update('prettier.endOfLine', 'auto', true);
+  config.update('prettier.arrowParens', 'always', true);
+  config.update('prettier.jsxSingleQuote', true, true);
+  config.update('prettier.useEditorConfig', false, true);
 
   vscode.window.showInformationMessage('Your settings have been updated!');
 }

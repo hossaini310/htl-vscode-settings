@@ -30,12 +30,41 @@ The extension sets the following settings:
 - `editor.suggestSelection`: Sets the suggestion selection to first.
 - `editor.guides.indentation`: Disables indentation guides.
 - `editor.defaultFormatter`: Sets the default formatter to esbenp.prettier-vscode.
+- `editor.linkedEditing`: Auto renaming HTML tags
+- `editor.codeActionsOnSave`: Automatically organizes imports on save.
+
+#### files settings:
+
+- `files.autoSave`: Sets auto save to "afterDelay".
+- `emmet settings`:
+- `emmet.showSuggestionsAsSnippets`: Shows emmet suggestions as snippets.
+- `emmet.includeLanguages`: Includes emmet for plaintext with HTML.
+
+#### volar settings:
+
+- `volar.inlayHints.eventArgumentInInlineHandlers`: Disables inlay hints for event arguments in inline handlers.
+
+#### html settings:
+
+- `html.autoClosingTags`: Automatically closes HTML tags.
+
+#### javascript settings:
+
+- `javascript.autoClosingTags:` Automatically closes JavaScript tags.
+- `javascript.suggest.autoImports`: Enables automatic imports suggestions.
+- `javascript.updateImportsOnFileMove.enabled`: Automatically updates imports when files are moved.
+
+#### typescript settings:
+
+- `typescript.autoClosingTags`: Automatically closes TypeScript tags.
+- `typescript.suggest.autoImports`: Enables automatic imports suggestions.
+- `typescript.updateImportsOnFileMove.enabled`: Automatically updates imports when files are moved.
 
 #### prettier settings:
 
 - `prettier.singleQuote`: Sets single quotes as the default quote style for Prettier.
 - `prettier.bracketSpacing`: Enables bracket spacing for Prettier.
-- `prettier.trailingComma`: Enables trailing commas for Prettier.
+- `prettier.trailingComma`: Sets trailing commas to "all" for Prettier.
 - `prettier.printWidth`: Sets the print width to 100 for Prettier.
 - `prettier.endOfLine`: Sets the end of line character to auto for Prettier.
 - `prettier.arrowParens`: Sets arrow parens to always for Prettier.

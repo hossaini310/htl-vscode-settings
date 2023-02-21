@@ -1,5 +1,17 @@
 # Change Log
 
+### v1.1.0 - 2023-02-22
+
+- `editor.codeActionsOnSave`: Automatically organizes imports on save.
+- `editor.linkedEditing`: Auto renaming HTML tags. Now you dont need the extension **Auto Rename Tag**
+- `javascript.suggest.autoImports`: Enables automatic imports suggestions. Now you dont need the extension **Auto Import**
+- `html.autoClosingTags`: Automatically closes HTML tags. Now you dont need the extension **Auto Close Tag**
+- `emmet.showSuggestionsAsSnippets`: Shows emmet suggestions as snippets.
+- `emmet.includeLanguages`: Includes emmet for plaintext with HTML.
+- `volar.inlayHints.eventArgumentInInlineHandlers`: Disables inlay hints for event arguments in inline handlers.
+- `javascript.updateImportsOnFileMove.enabled`: Automatically updates imports when files are moved.
+- `typescript.updateImportsOnFileMove.enabled`: Automatically updates imports when files are moved.
+
 ### v1.0.2 - 2023-02-21
 
 - Bug fixes
