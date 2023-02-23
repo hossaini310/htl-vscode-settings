@@ -1,5 +1,8 @@
 # Change Log
 
+### v1.1.2 - 2023-02-23
+
+- Bug fixes
 ### v1.1.1 - 2023-02-21
 
 - Bug fixes

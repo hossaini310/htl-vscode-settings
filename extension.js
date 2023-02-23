@@ -23,7 +23,7 @@ function activate() {
   config.update('editor.wordWrap', 'off', true);
   config.update('editor.tabSize', 2, true);
   config.update('editor.detectIndentation', false, true);
-  config.update('editor.minimap.enabled', false, true);
+  config.update('editor.minimap.enabled', true, true);
   config.update('editor.occurrencesHighlight', false, true);
   config.update('editor.quickSuggestions', { strings: true }, true);
   config.update('editor.guides.bracketPairs', true, true);
@@ -56,8 +56,6 @@ function activate() {
   config.update('prettier.arrowParens', 'always', true);
   config.update('prettier.jsxSingleQuote', true, true);
   config.update('prettier.useEditorConfig', false, true);
-
-  vscode.window.showInformationMessage('Your settings have been updated!');
 }
 
 function resetSettings() {
