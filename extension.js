@@ -15,7 +15,7 @@ function activate() {
   originalSettings.editor = config.get('editor');
   originalSettings.prettier = config.get('prettier');
 
-  config.update('editor.codeActionsOnSave', { sourceOrganizeImports: true }, true);
+  config.update('editor.codeActionsOnSave', { 'source.organizeImports': true }, true);
   config.update('editor.defaultFormatter', 'esbenp.prettier-vscode', true);
   config.update('editor.linkedEditing', true, true);
   config.update('editor.formatOnSave', true, true);
