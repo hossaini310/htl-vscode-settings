@@ -1,5 +1,9 @@
 # Change Log
 
+### v1.1.4 - 2023-03-04
+
+- `editor.codeActionsOnSave`: set to false, because this is annoying when you only want to format.
+
 ### v1.1.3 - 2023-02-24
 
 - Bug fixes
