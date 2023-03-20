@@ -4,11 +4,12 @@
   "publisher": "HossainiHosain",
   "description": "This is a simple VSCode extension that sets some default settings for the editor and prettier.",
   "icon": "images/icon.png",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/hossaini310/htl-vscode-settings"
   },
-  "version": "1.2.0",
+  "version": "1.2.1",
   "engines": {
     "vscode": "^1.67.0"
   },
