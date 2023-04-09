@@ -1,5 +1,9 @@
 # Change Log
 
+### v1.3.0 - 2023-04-09
+
+- Added sponsor link
+
 ### v1.2.1 - 2023-03-20
 
 - For older versions up to 1.67.0 it is also available
