@@ -73,6 +73,6 @@ The extension sets the following settings:
 
 ## Requirements
 
-This extension requires VSCode version 1.67.0 or higher.
+This extension requires VSCode version 1.56.2 or higher.
 
 Enjoy!
