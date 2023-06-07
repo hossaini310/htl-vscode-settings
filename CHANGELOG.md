@@ -1,5 +1,10 @@
 # Change Log
 
+### v1.3.2 - 2023-05-05
+
+- For older versions up to 1.67.1 it is also available
+- Updated devDependencies
+
 ### v1.3.1 - 2023-05-05
 
 - For older versions up to 1.56.2 it is also available
