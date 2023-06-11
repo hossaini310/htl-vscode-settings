@@ -1,6 +1,10 @@
 # Change Log
 
-### v1.3.2 - 2023-05-05
+### v1.3.3 - 2023-06-11
+
+- Bug fixes
+
+### v1.3.2 - 2023-06-05
 
 - For older versions up to 1.67.1 it is also available
 - Updated devDependencies
