@@ -1,5 +1,9 @@
 # Change Log
 
+### v1.3.4 - 2023-08-11
+
+- 🐛 Bug fixes
+
 ### v1.3.3 - 2023-06-11
 
 - Bug fixes
