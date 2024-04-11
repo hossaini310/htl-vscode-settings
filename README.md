@@ -32,6 +32,7 @@ The extension sets the following settings:
 - `editor.defaultFormatter`: Sets the default formatter to esbenp.prettier-vscode.
 - `editor.linkedEditing`: Auto renaming HTML tags
 - `editor.codeActionsOnSave`: Automatically organizes imports on save.
+- `workbench.iconTheme`: Sets the icon theme to material-icon-theme.
 
 #### files settings:
 

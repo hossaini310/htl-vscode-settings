@@ -1,5 +1,9 @@
 # Change Log
 
+### v1.3.5 - 2023-08-11
+
+- workbench.iconTheme: Set to material-icon-theme
+
 ### v1.3.4 - 2023-08-11
 
 - 🐛 Bug fixes
