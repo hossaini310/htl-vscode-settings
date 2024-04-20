@@ -35,6 +35,7 @@ function activate() {
   config.update('editor.renderWhitespace', 'none', true);
   config.update('editor.suggestSelection', 'first', true);
   config.update('editor.guides.indentation', false, true);
+  config.update('workbench.colorTheme', 'Bearded Theme Black & Emerald', true);
 
   config.update('files.autoSave', 'afterDelay', true);
   config.update('emmet.showSuggestionsAsSnippets', true, true);

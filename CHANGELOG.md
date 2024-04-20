@@ -1,6 +1,10 @@
 # Change Log
 
-### v1.3.5 - 2023-08-11
+### v1.3.6 - 2024-04-20
+
+- workbench..colorTheme: Set to Bearded Theme Black & Emerald
+
+### v1.3.5 - 2024-04-11
 
 - workbench.iconTheme: Set to material-icon-theme
 
