@@ -1,5 +1,9 @@
 # Change Log
 
+### v1.3.7 - 2024-05-16
+
+- removed workbench.iconTheme
+
 ### v1.3.6 - 2024-04-20
 
 - workbench..colorTheme: Set to Bearded Theme Black & Emerald

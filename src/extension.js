@@ -48,7 +48,6 @@ function activate() {
   config.update('typescript.suggest.autoImports', true, true);
   config.update('javascript.updateImportsOnFileMove.enabled', 'always', true);
   config.update('typescript.updateImportsOnFileMove.enabled', 'always', true);
-  config.update('workbench.iconTheme', 'material-icon-theme', true);
 
   config.update('prettier.singleQuote', true, true);
   config.update('prettier.bracketSpacing', true, true);
